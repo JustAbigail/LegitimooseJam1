@@ -1,0 +1,1 @@
+tellraw @a {color: "green", text: "Loaded Legitijam pack!"}
