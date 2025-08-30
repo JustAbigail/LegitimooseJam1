@@ -1,0 +1,13 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "_comment": "change this to match whatever the the traffic cones are gonna be",
+                "nbt": "{Tags: [\"traffic_cone\"]}"
+            }
+        }
+    ]
+}

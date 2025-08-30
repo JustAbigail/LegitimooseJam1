@@ -3,7 +3,7 @@ execute if score @s mined matches 1.. run kill @e[type=item,limit=1,sort=nearest
 scoreboard players set @s mined 0
 
 execute unless entity @s[gamemode=creative] run data merge entity @s {SelectedItemSlot:4}
-execute if items entity @s weapon.offhand * run function jam:player/throw
+execute if items entity @s weapon.offhand * run function jam:player/throw/throw
 
 execute unless entity @s[gamemode=creative] unless items entity @s hotbar.4 * run item replace entity @s hotbar.4 with minecraft:netherite_pickaxe
 execute unless entity @s[gamemode=creative] if items entity @s hotbar.4 netherite_pickaxe run item modify entity @s hotbar.4 jam:make_hand
