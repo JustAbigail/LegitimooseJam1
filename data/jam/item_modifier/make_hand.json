@@ -1,0 +1,34 @@
+{
+    "function": "set_components",
+    "components": {
+        "tooltip_display": {
+            "hide_tooltip": true,
+            "hidden_components": [
+                "can_break",
+                "tool",
+                "custom_name"
+            ]
+        },
+        "enchantments": {
+            "silk_touch": 1
+        },
+        "can_break": {
+            "blocks": "#jam:can_break"
+        },
+        "custom_data": {
+            "jam:hand": {}
+        },
+        "item_model": "air",
+        "tool": {
+            "default_mining_speed": 0,
+            "damage_per_block": 0,
+            "rules": [
+                {
+                    "blocks": "#jam:can_break",
+                    "correct_for_drops": true,
+                    "speed": 30
+                }
+            ]
+        }
+    }
+}

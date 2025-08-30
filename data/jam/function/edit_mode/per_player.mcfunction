@@ -1,0 +1,1 @@
+execute anchored eyes run function jam:edit_mode/ray/start

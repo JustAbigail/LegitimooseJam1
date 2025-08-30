@@ -1,5 +1,6 @@
 {
     "values": [
-        "jam:load/message"
+        "jam:load/message",
+        "jam:load/scoreboards"
     ]
 }
