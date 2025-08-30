@@ -3,8 +3,8 @@
 # Outputs: jam:temp Motion
 
 tag @s add player.temp
-execute positioned 0 0 0 run summon marker ~ ~ ~ {Tags: ["dir"]}
-$execute at @e[type=marker,tag=dir,limit=1] rotated as @a[tag=player.temp,limit=1] run tp @s ^ ^ ^$(Speed)
-data modify storage jam:temp Motion set from entity @e[type=marker,tag=dir,limit=1]
+$execute positioned 0 0 0 rotated as @s run summon marker ^ ^ ^$(Speed) {Tags: ["dir"]}
+data modify storage jam:temp Motion set from entity @e[type=marker,tag=dir,limit=1] Pos
+# tellraw @a ["Pos: ", {nbt: "Pos", entity: "@e[type=marker,tag=dir,limit=1]"}]
 kill @e[type=marker,tag=dir,limit=1]
 tag @s remove player.temp

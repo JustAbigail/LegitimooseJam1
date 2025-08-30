@@ -5,6 +5,7 @@ scoreboard objectives add math dummy
 
 scoreboard players set $$2 math 2
 scoreboard players set $$1000 math 1000
+scoreboard players set $$Gravity math 15
 
 scoreboard objectives add uuid.0 dummy
 scoreboard objectives add uuid.1 dummy

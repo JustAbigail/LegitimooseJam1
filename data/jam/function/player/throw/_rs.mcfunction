@@ -1,1 +1,0 @@
-$execute positioned ^ ^ ^$(Speed) run tp @s ~ ~ ~ ~ ~

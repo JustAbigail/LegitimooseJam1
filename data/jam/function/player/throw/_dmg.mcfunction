@@ -1,0 +1,1 @@
+$damage @s $(Damage) arrow by @e[type=player,tag=player.hit,limit=1]

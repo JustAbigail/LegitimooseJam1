@@ -1,0 +1,16 @@
+{
+    "condition": "inverted",
+    "term": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": [
+                "item",
+                "item_display",
+                "block_display",
+                "text_display",
+                "marker"
+            ]
+        }
+    }
+}
