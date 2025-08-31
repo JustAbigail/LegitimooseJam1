@@ -3,9 +3,11 @@ scoreboard objectives add temp dummy
 scoreboard objectives add timer dummy
 scoreboard objectives add math dummy
 
+scoreboard objectives add death_check deathCount
+
 scoreboard players set $$2 math 2
 scoreboard players set $$1000 math 1000
-scoreboard players set $$Gravity math 15
+scoreboard players set $$Gravity math 4
 
 scoreboard objectives add uuid.0 dummy
 scoreboard objectives add uuid.1 dummy
@@ -26,7 +28,12 @@ scoreboard objectives add ref.0.3 dummy
 scoreboard objectives add attack.damage dummy
 scoreboard objectives add attack.ignite dummy
 scoreboard objectives add attack.speed dummy
+scoreboard objectives add attack.hits dummy
+
+bossbar add minecraft:blocks_left "Hoi_Kirb"
 
 time set day
+setworldspawn 0 62 -56 180
 gamerule mobGriefing false
 gamerule commandModificationBlockLimit 999999999
+gamerule keepInventory true

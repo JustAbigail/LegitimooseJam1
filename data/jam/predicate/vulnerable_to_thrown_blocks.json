@@ -1,16 +1,37 @@
 {
     "condition": "inverted",
     "term": {
-        "condition": "entity_properties",
-        "entity": "this",
-        "predicate": {
-            "type": [
-                "item",
-                "item_display",
-                "block_display",
-                "text_display",
-                "marker"
-            ]
-        }
+        "condition": "any_of",
+        "terms": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Tags: [\"block.thrown.trace\"]}"
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Tags: [\"block.thrown.dsp\"]}"
+                }
+            },
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": [
+                        "marker",
+                        "text_display",
+                        "block_display",
+                        "item_display",
+                        "player",
+                        "item",
+                        "experience_orb"
+                    ]
+                }
+            }
+        ]
     }
 }

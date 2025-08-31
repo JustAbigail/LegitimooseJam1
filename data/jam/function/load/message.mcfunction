@@ -1,1 +1,1 @@
-tellraw @a {color: "green", text: "The Code is Load!"}
+tellraw @a {color: "green", text: "The JAM is Load!"}

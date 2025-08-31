@@ -1,5 +1,5 @@
-execute if score @s mined matches 1.. run item replace entity @s hotbar.4 from entity @e[type=item,limit=1,sort=nearest] container.0
-execute if score @s mined matches 1.. run kill @e[type=item,limit=1,sort=nearest]
+execute if score @s mined matches 1.. at @s run item replace entity @s hotbar.4 from entity @e[type=item,limit=1,sort=nearest,tag=!block.thrown.trace] container.0
+execute if score @s mined matches 1.. at @s run kill @e[type=item,limit=1,sort=nearest,tag=!block.thrown.trace]
 scoreboard players set @s mined 0
 
 execute unless entity @s[gamemode=creative] run data merge entity @s {SelectedItemSlot:4}

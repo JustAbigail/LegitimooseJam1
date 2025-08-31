@@ -5,7 +5,6 @@
         "red_concrete",
         "cyan_concrete",
         "glass",
-        "#stairs",
         "oak_planks",
         "spruce_planks",
         "bricks",
@@ -41,6 +40,8 @@
         "polished_basalt",
         "minecraft:magma_block",
         "calcite",
-        "amethyst_block"
+        "amethyst_block",
+        "ochre_froglight",
+        "obsidian"
     ]
 }
