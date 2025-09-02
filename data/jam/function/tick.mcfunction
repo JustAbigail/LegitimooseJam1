@@ -25,5 +25,8 @@ kill @e[type=item,tag=!block.thrown.trace]
 
 team join in_lobby @a[team=]
 
+
+execute positioned 82 45 -11 as @a[dx=14,dy=2,dz=100] run damage @s 1000
+
 execute as @e[type=tnt,nbt={fuse:1s}] at @s run summon creeper ~ ~ ~ {Fuse:0,ignited:1b,Tags:["tnt_replace"],Silent:true}
 kill @e[type=tnt,nbt={fuse:1s}]

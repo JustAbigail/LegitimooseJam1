@@ -43,7 +43,7 @@ scoreboard objectives add spectate trigger
 
 scoreboard players set $Queue.Timer.Seconds value 0
 scoreboard players set $Queue.Timer.Minutes value 1
-schedule function jam:lobby/update_queue 1s
+scoreboard players set !Queue.Timer.WasActive value 0
 
 team add queued "Queued"
 team add in_lobby "Lobby"

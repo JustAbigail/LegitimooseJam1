@@ -22,4 +22,4 @@ execute as @e[type=zombie] run scoreboard players add cones_existing value 1
 execute if score till_roadblock timer matches -1 if score cones_existing value matches ..4 run function jam:game_logic/spawn_cones
 
 execute positioned 89 44 39 as @a[dx=8,dy=1,dz=51] run damage @s 1000
-execute unless entity @a[tag=ingame] run function jam:game_logic/end
+execute unless entity @a[tag=ingame] if score game_active value matches 1 run function jam:game_logic/end

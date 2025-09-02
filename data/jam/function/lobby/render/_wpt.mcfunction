@@ -1,0 +1,2 @@
+$execute if score $Queue.Timer.Seconds value matches 0..9 run return run data modify storage jam:temp Text set value [" ", " ", "Starting in: ", {text: "$(Minutes):0$(Seconds)", color: "#ffc800"}]
+$data modify storage jam:temp Text set value [" ", " ", "Starting in: ", {text: "$(Minutes):$(Seconds)", color: "#ffc800"}]
