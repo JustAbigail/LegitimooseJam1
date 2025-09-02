@@ -20,6 +20,7 @@
             "jam:hand": {}
         },
         "item_model": "air",
+        "unbreakable": {},
         "tool": {
             "default_mining_speed": 0,
             "damage_per_block": 0,
@@ -30,6 +31,7 @@
                     "speed": 30
                 }
             ]
-        }
+        },
+        "!weapon": {}
     }
 }

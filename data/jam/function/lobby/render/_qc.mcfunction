@@ -1,0 +1,2 @@
+$execute if score $PlayersQueued temp matches 1.. run return run data modify storage jam:temp Text set value [{text: " Queued: ", color: "#ff8c00"}, {text: "$(PlayersQueued)", color: "#ffc800"}]
+data modify storage jam:temp Text set value [{text: " Queued: ", color: "#ffc800"}, {text: "0", color: "#ff8c00"}]

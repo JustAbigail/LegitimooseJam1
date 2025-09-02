@@ -1,0 +1,1 @@
+$data modify storage jam:temp Text set value [" ", " ", {text: "-"}, " ", {text: "$(PlayerName)", color: "#ffc800"}]

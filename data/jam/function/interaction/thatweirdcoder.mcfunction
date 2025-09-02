@@ -1,0 +1,1 @@
+execute on target run tellraw @s ["",{text:"Welcome to ROAD BLOCK ! Made for the first ",color:"gray"},{text:"♪MAP JAM♫",color:"blue"},{text:"\\nVery cool ama right ?",color:"gray"}]

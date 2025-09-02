@@ -34,6 +34,11 @@ ride @e[type=item_display,tag=block.thrown.dsp.new,limit=1] mount @e[type=item,t
 data modify entity @e[type=item,tag=block.thrown.trace.new,limit=1] Motion set from storage jam:temp Motion
 data modify entity @e[type=item,tag=block.thrown.trace.new,limit=1] Rotation set from entity @s
 
+# data merge entity @e[type=item_display,tag=block.thrown.dsp.new,limit=1] {transformation: {left_rotation: {angle: 1.6, axis: [0, 1, 0]}}, interpolation_duration: 8, start_interpolation: -1}
+
+scoreboard players set @e[type=item_display,tag=block.thrown.dsp.new,limit=1] bt.timer 2
+scoreboard players set @e[type=item_display,tag=block.thrown.dsp.new,limit=1] bt.rot 1
+
 tag @e[type=item,tag=block.thrown.trace.new,limit=1] remove block.thrown.trace.new
 tag @e[type=item_display,tag=block.thrown.dsp.new,limit=1] remove block.thrown.dsp.new
 

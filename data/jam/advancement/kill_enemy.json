@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "kill_enemy": {
+        "trigger": "minecraft:player_killed_entity"
+      }
+    },
+    "rewards": {
+      "function": "jam:player/kill_enemy"
+    }
+  }

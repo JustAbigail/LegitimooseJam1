@@ -1,0 +1,2 @@
+playsound block.note_block.didgeridoo master @s
+tellraw @s [{text: ">", color: "white", bold: true}, {text: ">", color: "#ff8c00"}, {text: ">", color: "red"}, " ", {text: "Couldn't queue for next game as you already are", bold: false}]

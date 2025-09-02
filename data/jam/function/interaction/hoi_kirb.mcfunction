@@ -1,0 +1,1 @@
+execute on target run tellraw @s [{"text":"<Hoi_Kirb> Hoi! I'm Kirb! I've been makin the lobby and textures for this game (inspired by the Minecraft Legacy Minigame lobbies on consoles) with secrets and all!! Welp I hope you have fun with what NderHAM and ThatWeirdCoder prepared :D","color":"gray"}]

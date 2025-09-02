@@ -1,8 +1,21 @@
 {
     "function": "set_components",
     "components": {
+        "tooltip_display": {
+            "hide_tooltip": true,
+            "hidden_components": [
+                "can_place_on",
+                "attribute_modifiers"
+            ]
+        },
         "can_place_on": {
             "blocks": "#jam:place_on"
-        }
+        },
+        "custom_data": {
+            "jam:not_hand": {}
+        },
+        "item_name": "",
+        "!tool": {},
+        "!weapon": {}
     }
 }

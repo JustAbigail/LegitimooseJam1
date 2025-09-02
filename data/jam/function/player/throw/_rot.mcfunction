@@ -1,0 +1,1 @@
+$data merge entity @s {transformation: {left_rotation: {angle: $(Angle), axis: [0, 1, 0]}}, interpolation_duration: 8, start_interpolation: -1}
